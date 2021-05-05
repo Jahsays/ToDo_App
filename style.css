@@ -1,0 +1,113 @@
+.container{
+    /* border: 5px solid purple; */
+    /* width: 60em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*************************** Input Button ***********************************/
+.input-button{
+    display: flex;
+    /* width: 70%; */
+    /* border: 1px solid; */
+    justify-content: center;
+    width: 76%;
+    height: 2em;
+}
+button{
+    background-color:  #00bb88;
+    width: 30%;
+    color: #ffffff;
+    border: none;
+}
+input{
+    width: 100%;
+    border: 1px solid #00bb88;
+}
+/* ***************************Filter***************************** */
+.filter, .Todos, .add-todo{
+    display: flex;
+    /* height: 0.5em; */
+    /* border: 1px solid; */
+    align-items: center;
+    width: 76%;
+}
+select{
+    height: 2em;
+    width: 4em;
+}
+.des{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: green; */
+    /* border: 1px solid brown; */
+    width: 50em;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    /* border: 2px solid red; */
+    width: fit-content;
+    font-weight: bold;
+}
+.color,.color1{
+    height: 0.8em;
+    width: 0.8em;
+    background-color:#00bb88;
+    position: relative;
+    bottom: 0.1em;
+}
+.color1{
+    background-color:#2d4a5e ;
+}
+.color2{
+    height: 0.6em;
+    width: 0.65em;
+    /* background-color: #bea15e; */
+    position: relative;
+    bottom: 0.3em;
+}
+.color-container{
+    /* border: 2px solid rgb(185, 31, 82); */
+    display: flex;
+    justify-content: space-around;
+    width: 2em;
+    /* height: 2em; */
+    position: relative;
+    right: 3px;
+}
+/* **************grid-container ************************************/
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto;
+/* background-color: green; */
+padding: 1em;
+grid-gap: 1em 1em;
+/* border: 5px solid yellow; */
+width: 77%;
+}
+.grid-item{
+    /* background-color: rgb(38, 114, 8); */
+    /* border: 1px solid orangered; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 13.5em;
+    /* height:fit-content ; */
+    display: inline-block;   
+    font-weight: bold;
+}
+.delete{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+#one,  #two, #three, #five, #six, #seven, #nine, #thirteen{
+    background-color:#00bb88;  
+}
+#four, #eight, #ten, #eleven, #twelve, #fourteen, #fifteen{
+    background-color:#2d4a5e;
+}
+
