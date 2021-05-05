@@ -33,7 +33,7 @@ input{
 /* ***************************Filter***************************** */
 .filter, .Todos, .add-todo{
     display: flex;
-    /* height: 0.5em; */
+    height: 5em;
     /* border: 1px solid; */
     align-items: center;
     width: 76%;
@@ -91,7 +91,7 @@ grid-template-columns: auto auto auto;
 padding: 1em;
 grid-gap: 1em 1em;
 /* border: 5px solid yellow; */
-width: 77%;
+width: 80%;
 }
 .grid-item{
     /* background-color: rgb(38, 114, 8); */
@@ -99,7 +99,7 @@ width: 77%;
     text-align: center;
     padding: 20px;
     border-radius: 5px;
-    width: 13.5em;
+    width: 100%;
     /* height:fit-content ; */
     display: inline-block;   
     font-weight: bold;
