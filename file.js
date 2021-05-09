@@ -47,5 +47,5 @@ document.getElementById("icon").addEventListener("click", removeItem);
 const card = document.querySelector('grid-item');
 
 card.addEventListener('dblclick', function (e) {
-  card.style.color = "brown";
+  card.style.color = "green";
 });
