@@ -109,10 +109,10 @@ width: 80%;
     justify-content: flex-end;
     color: #ffffff;
 }
-#one,  #two, #three, #five, #six, #seven, #nine, #thirteen{
+#incomplete{
     background-color:#00bb88;  
 }
-#four, #eight, #ten, #eleven, #twelve, #fourteen, #fifteen{
+#complete{
     background-color:#2d4a5e;
 }
 
